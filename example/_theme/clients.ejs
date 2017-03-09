@@ -1,0 +1,7 @@
+<%- include('head') %>
+  <%- page.content %>
+  <% for(let name in data.some.clients) { %>
+    <h2><%= name %></h2>
+    <p><%= data.some.clients[name].country %></p>
+  <% } %>
+<%- include('foot') %>
