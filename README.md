@@ -5,6 +5,7 @@ Yeah, I know, You 've already use more than 10 static site generators and you're
 ## Main goals
 
 - Load data in **JSON** files
+- No configuration, just use json files as with any other data
 - Transform **Markdown** files to **HTML**
 - Apply templates using **EJS**
 - **Keep** the directory structure!!
@@ -23,3 +24,5 @@ That's why I made **kawax**! I can't figure how to make this one more simple. Th
 - Your `.ejs` files will receive all loaded data and a special property `page` which contains all front matter attributes + `path`, `title`, `content`.
 
 Please note that each markdown file will be generated in its own folder to generates pretty urls.
+
+Don't hesitate to look in the `example` folder ;)
