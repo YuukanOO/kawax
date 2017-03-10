@@ -1,2 +1,12 @@
   <small>Generated page: <%= page.path %></small>
+
+  <ul>
+  <% for (var p of pages) { %>
+    <% if (p == page) { %>
+      <li class="active"><%= p.title %></li>
+    <% } else { %>
+      <li><%= p.title %></li>
+    <% } %>    
+  <% } %>
+  </ul>
 </body>
