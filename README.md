@@ -16,7 +16,7 @@ Yeah, I know, You 've already use more than 10 static site generators and you're
 
 ## Theme data
 
-When processing a page, in your `.ejs` file, you will have access to the following properties:
+When processing a page, in your `.ejs` file, you will have access to the following **properties**:
 
 - `page`: Represents the current page
   - `title`: Title of the page
@@ -25,6 +25,10 @@ When processing a page, in your `.ejs` file, you will have access to the followi
   - And any other meta added via front matter
 - `pages`: All pages of your site as an array of `page`
 - All data read from your json files
+
+And the following **commands**:
+
+- `copy(src, dest)`: Will copy the file `src` (relative to the theme directory) to  `dest` (relative to the build directory). You must provide the filename too. Mostly use to copy assets such as css `<link href="<%= copy('style.css', '/public/main.css') %>" rel="stylesheet">`.
 
 Please note that each markdown file will be generated in its own folder to generates pretty urls.
 
