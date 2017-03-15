@@ -8,6 +8,7 @@ Yeah, I know, You 've already use more than 10 static site generators and you're
 - No configuration, just use json files as with any other data
 - Transform **Markdown** files to **HTML**
 - Apply templates using **EJS**
+- Copy other assets **as it**
 - **Keep** the directory structure!!
 
 ## Installation & Usage
