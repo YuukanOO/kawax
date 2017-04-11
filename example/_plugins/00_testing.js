@@ -1,3 +1,5 @@
-module.exports = function testing(site, next) {
-  next();
+module.exports = function (context) {
+  return function testing(ctx, next) {
+    next();
+  };
 };
