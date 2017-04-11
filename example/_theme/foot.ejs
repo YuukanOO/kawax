@@ -3,9 +3,9 @@
   <ul>
   <% for (var p of pages) { %>
     <% if (p == page) { %>
-      <li class="active"><%= p.title %></li>
+      <li class="active"><%= p.meta.title %></li>
     <% } else { %>
-      <li><%= p.title %></li>
+      <li><%= p.meta.title %></li>
     <% } %>    
   <% } %>
   </ul>
