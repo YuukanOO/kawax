@@ -1,5 +1,5 @@
 module.exports = function (context) {
-  return function testing(ctx, next) {
+  return function _11_testing(ctx, next) {
     next();
   };
 };
